@@ -20,8 +20,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Rest in Godot"
-run/main_scene="res://Label.tscn"
+config/name="instancing"
+run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
 [editor]
@@ -29,13 +29,34 @@ config/icon="res://icon.png"
 version_control_autoload_on_startup=true
 version_control_plugin_name="GitAPI"
 
-[gui]
+[importer_defaults]
 
-common/drop_mouse_on_gui_input_disabled=true
+texture={
+"compress/hdr_mode": 0,
+"compress/lossy_quality": 0.7,
+"compress/mode": 0,
+"compress/normal_map": 0,
+"detect_3d": true,
+"flags/anisotropic": false,
+"flags/filter": false,
+"flags/mipmaps": false,
+"flags/repeat": 0,
+"flags/srgb": 2,
+"process/HDR_as_SRGB": false,
+"process/fix_alpha_border": true,
+"process/premult_alpha": false,
+"size_limit": 0,
+"stream": false,
+"svg/scale": 1.0
+}
 
-[physics]
+[input]
 
-common/enable_pause_aware_picking=true
+click={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
 
 [rendering]
 
